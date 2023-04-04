@@ -687,14 +687,14 @@
 }
 
 .section.started.layout-creative .started-content .h-title {
-	margin: 0 0 5px 33px;
+	margin: 0 0 5px 30px;
 	padding-right: 0;
 	position: relative;
 	left: 0;
 	top: 0;
 	bottom: auto;
-	max-width: 800px;
-	font-size: 40px;
+	max-width: 900px;
+	font-size: 36px;
 	font-family: "Roboto";
 	font-weight: 500;
 	text-transform: none;
