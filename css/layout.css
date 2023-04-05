@@ -1400,6 +1400,14 @@
 	font-weight: 500;
 }
 
+.skills ul li .name1 {
+	margin: 0 0 10px 0;
+	position: relative;
+	font-size: 10px;
+	color: #eee;
+	font-weight: 200;
+}
+
 .skills ul li .progress {
 	display: block;
 	height: 4px;
