@@ -263,7 +263,7 @@
 .hover-masks .mask-lnk,
 .hover-masks-logo .mask-lnk {
 	position: relative;
-	top: 0;
+	top: 5;
 	left: 0;
 	width: 100%;
 	display: block;
