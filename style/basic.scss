@@ -1,34 +1,8 @@
 @import "settings";
 
-/**
-*	Cvio - Resume/CV Template (HTML)
-*	Version: 1.1
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright © Cvio by beshleyua. All Rights Reserved.
-**/
-
-/* TABLE OF CONTENTS
-	- Basic
-	- Preloader
-	- Container
-	- Columns
-	- Typography
-	- Links
-	- Buttons
-	- Forms
-	- Lists
-	- Code
-	- Tables
-	- Alignment
-	- Text Formating
-	- Blockquote
-	- Animations
-*/
-
 /* - Basic */
 html {
-	margin-right: 0!important;
+	margin-right: 0 !important;
 }
 
 body {
@@ -76,7 +50,7 @@ body.scroll_hidden {
 }
 
 .cursor-follower.hide {
-	opacity: 0!important;
+	opacity: 0 !important;
 }
 
 @media (max-width: 1199px) {
@@ -94,21 +68,25 @@ body.scroll_hidden {
 	bottom: 0;
 	text-align: center;
 	z-index: 11111;
+
 	.spinner {
 		position: absolute;
 		left: 50%;
 		top: 0;
 		width: 1px;
 		height: 100%;
-		.double-bounce1, .double-bounce2 {
+
+		.double-bounce1,
+		.double-bounce2 {
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100%;
 			height: 100%;
 		}
+
 		.double-bounce2 {
-			background: rgba(255,255,255,0.5);
+			background: rgba(255, 255, 255, 0.5);
 			height: 0;
 			-webkit-animation: loading 2.0s infinite ease-in-out;
 			animation: loading 2.0s infinite ease-in-out;
@@ -137,6 +115,7 @@ body.scroll_hidden {
 	font-size: 0;
 	pointer-events: none;
 	z-index: 1111;
+
 	&.no-lines {
 		.line-col {
 			&:before {
@@ -299,6 +278,7 @@ body.scroll_hidden {
 	.lines .line-col {
 		width: 33.333%;
 	}
+
 	.lines .line-col:nth-child(4),
 	.lines .line-col:nth-child(5) {
 		display: none;
@@ -309,6 +289,7 @@ body.scroll_hidden {
 	.lines .line-col {
 		width: 50%;
 	}
+
 	.lines .line-col:nth-child(3),
 	.lines .line-col:nth-child(4),
 	.lines .line-col:nth-child(5) {
@@ -413,21 +394,27 @@ strong {
 	h1 {
 		font-size: 24px;
 	}
+
 	h2 {
 		font-size: 20px;
 	}
+
 	h3 {
 		font-size: 18px;
 	}
+
 	h4 {
 		font-size: $default_size;
 	}
+
 	h5 {
 		font-size: $small_size;
 	}
+
 	h6 {
 		font-size: 13px;
 	}
+
 	p {
 		margin: 20px 0;
 	}
@@ -470,19 +457,23 @@ a:hover {
 .bts-center {
 	text-align: center;
 }
+
 .bts-list {
 	font-size: 0px;
 }
+
 .bts-list .btn {
 	margin-right: 20px;
 	margin-top: 20px;
 }
+
 .bts-list .btn:last-child {
 	margin-right: 0px;
 }
 
 a.btn,
-.btn, .single-post-text input[type="submit"] {
+.btn,
+.single-post-text input[type="submit"] {
 	margin-bottom: 10px;
 	position: relative;
 	overflow: hidden;
@@ -516,7 +507,10 @@ a.btn:hover,
 }
 
 @media screen and (max-width: 720px) {
-	a.btn, .btn, .single-post-text input[type="submit"] {
+
+	a.btn,
+	.btn,
+	.single-post-text input[type="submit"] {
 		font-size: $small_size;
 	}
 }
@@ -539,7 +533,7 @@ button {
 	color: $light_color;
 	margin-bottom: 30px;
 	padding: 0;
-	background: none!important;
+	background: none !important;
 	border: none;
 	border-bottom: 1px solid $lines_color;
 	resize: none;
@@ -638,7 +632,7 @@ textarea.wpcf7-not-valid {
 
 label.error,
 .wpcf7-not-valid-tip {
-	display: none!important;
+	display: none !important;
 }
 
 input.error::-moz-placeholder,
@@ -678,7 +672,8 @@ input[type="radio"] {
 	display: inline;
 }
 
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
 	width: auto;
 	height: auto;
 	margin-bottom: 10px;
@@ -740,7 +735,10 @@ ol {
 	list-style-position: inside;
 }
 
-ul ul, ol ol, ul ol, ol ul {
+ul ul,
+ol ol,
+ul ol,
+ol ul {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	margin-left: 15px;
@@ -770,7 +768,8 @@ pre {
 	white-space: pre;
 }
 
-mark, ins {
+mark,
+ins {
 	background: $light_color;
 	text-decoration: none;
 }
@@ -935,22 +934,26 @@ blockquote {
 		top: 0;
 		bottom: auto;
 	}
-	50% { 
+
+	50% {
 		height: 100%;
 		top: 0;
 		bottom: auto;
 	}
-	51% { 
+
+	51% {
 		height: 100%;
 		top: 0;
 		bottom: auto;
 	}
+
 	52% {
 		height: 100%;
 		top: auto;
 		bottom: 0;
 	}
-	100% { 
+
+	100% {
 		height: 0;
 		top: auto;
 		bottom: 0;
@@ -963,22 +966,26 @@ blockquote {
 		top: 0;
 		bottom: auto;
 	}
-	50% { 
+
+	50% {
 		height: 100%;
 		top: 0;
 		bottom: auto;
 	}
-	51% { 
+
+	51% {
 		height: 100%;
 		top: 0;
 		bottom: auto;
 	}
+
 	52% {
 		height: 100%;
 		top: auto;
 		bottom: 0;
 	}
-	100% { 
+
+	100% {
 		height: 0;
 		top: auto;
 		bottom: 0;
