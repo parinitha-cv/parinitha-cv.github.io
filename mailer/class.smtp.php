@@ -1,29 +1,6 @@
 <?php
-/**
- * PHPMailer RFC821 SMTP email transport class.
- * PHP Version 5
- * @package PHPMailer
- * @link https://github.com/PHPMailer/PHPMailer/ The PHPMailer GitHub project
- * @author Marcus Bointon (Synchro/coolbru) <phpmailer@synchromedia.co.uk>
- * @author Jim Jagielski (jimjag) <jimjag@gmail.com>
- * @author Andy Prevost (codeworxtech) <codeworxtech@users.sourceforge.net>
- * @author Brent R. Matzelle (original founder)
- * @copyright 2014 Marcus Bointon
- * @copyright 2010 - 2012 Jim Jagielski
- * @copyright 2004 - 2009 Andy Prevost
- * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
- * @note This program is distributed in the hope that it will be useful - WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.
- */
 
-/**
- * PHPMailer RFC821 SMTP email transport class.
- * Implements RFC 821 SMTP commands and provides some utility methods for sending mail to an SMTP server.
- * @package PHPMailer
- * @author Chris Ryan
- * @author Marcus Bointon <phpmailer@synchromedia.co.uk>
- */
+
 class SMTP
 {
     /**
@@ -221,7 +198,7 @@ class SMTP
                     ENT_QUOTES,
                     'UTF-8'
                 )
-                . "<br>\n";
+                    . "<br>\n";
                 break;
             case 'echo':
             default:
@@ -231,7 +208,7 @@ class SMTP
                     "\n",
                     "\n                   \t                  ",
                     trim($str)
-                )."\n";
+                ) . "\n";
         }
     }
 
@@ -265,7 +242,7 @@ class SMTP
         }
         // Connect to the SMTP server
         $this->edebug(
-            "Connection: opening to $host:$port, timeout=$timeout, options=".var_export($options, true),
+            "Connection: opening to $host:$port, timeout=$timeout, options=" . var_export($options, true),
             self::DEBUG_CONNECTION
         );
         $errno = 0;
@@ -304,7 +281,7 @@ class SMTP
             );
             $this->edebug(
                 'SMTP ERROR: ' . $this->error['error']
-                . ": $errstr ($errno)",
+                    . ": $errstr ($errno)",
                 self::DEBUG_CLIENT
             );
             return false;
@@ -372,7 +349,7 @@ class SMTP
         }
 
         if (array_key_exists('EHLO', $this->server_caps)) {
-        // SMTP extensions are available. Let's try to find a proper authentication method
+            // SMTP extensions are available. Let's try to find a proper authentication method
 
             if (!array_key_exists('AUTH', $this->server_caps)) {
                 $this->setError('Authentication is not allowed at this stage');
@@ -398,7 +375,7 @@ class SMTP
                     $this->setError('No supported authentication methods found');
                     return false;
                 }
-                self::edebug('Auth method selected: '.$authtype, self::DEBUG_LOWLEVEL);
+                self::edebug('Auth method selected: ' . $authtype, self::DEBUG_LOWLEVEL);
             }
 
             if (!in_array($authtype, $this->server_caps['AUTH'])) {
@@ -419,8 +396,7 @@ class SMTP
                     'User & Password',
                     base64_encode("\0" . $username . "\0" . $password),
                     235
-                )
-                ) {
+                )) {
                     return false;
                 }
                 break;
@@ -453,7 +429,7 @@ class SMTP
                     $this->setError($temp->error);
                     $this->edebug(
                         'You need to enable some modules in your php.ini file: '
-                        . $this->error['error'],
+                            . $this->error['error'],
                         self::DEBUG_CLIENT
                     );
                     return false;
@@ -465,8 +441,7 @@ class SMTP
                     'AUTH NTLM',
                     'AUTH NTLM ' . base64_encode($msg1),
                     334
-                )
-                ) {
+                )) {
                     return false;
                 }
                 //Though 0 based, there is a white space after the 3 digit number
@@ -689,7 +664,7 @@ class SMTP
     public function hello($host = '')
     {
         //Try extended hello first (RFC 2821)
-        return (boolean)($this->sendHello('EHLO', $host) or $this->sendHello('HELO', $host));
+        return (bool)($this->sendHello('EHLO', $host) or $this->sendHello('HELO', $host));
     }
 
     /**
@@ -838,7 +813,7 @@ class SMTP
             $code_ex = (count($matches) > 2 ? $matches[2] : null);
             // Cut off error code from each response line
             $detail = preg_replace(
-                "/{$code}[ -]".($code_ex ? str_replace('.', '\\.', $code_ex).' ' : '')."/m",
+                "/{$code}[ -]" . ($code_ex ? str_replace('.', '\\.', $code_ex) . ' ' : '') . "/m",
                 '',
                 $this->last_reply
             );
@@ -1051,8 +1026,8 @@ class SMTP
             // Now check if reads took too long
             if ($endtime and time() > $endtime) {
                 $this->edebug(
-                    'SMTP -> get_lines(): timelimit reached ('.
-                    $this->Timelimit . ' sec)',
+                    'SMTP -> get_lines(): timelimit reached (' .
+                        $this->Timelimit . ' sec)',
                     self::DEBUG_LOWLEVEL
                 );
                 break;
