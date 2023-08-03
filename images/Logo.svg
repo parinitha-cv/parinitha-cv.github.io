@@ -10,7 +10,7 @@
 			<g>
 				<g>
 					
-						<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="936.6846" y1="3164.3599" x2="826.8735" y2="3468.0562" gradientTransform="matrix(1 0 0 -1 -246.9 4240.8115)">
+						<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="928.3445" y1="-2347.3999" x2="818.5335" y2="-2651.0962" gradientTransform="matrix(1 0 0 1 -238.56 3423.8516)">
 						<stop  offset="0" style="stop-color:#00C5DC"/>
 						<stop  offset="1" style="stop-color:#005484"/>
 					</linearGradient>
@@ -36,14 +36,16 @@
 										<g>
 											<g>
 												<g>
-													<defs>
-														<polygon id="SVGID_2_" points="822.343,891.961 382.557,891.961 353.075,946.938 792.861,946.938 														"/>
-													</defs>
-													<clipPath id="SVGID_3_">
-														<use xlink:href="#SVGID_2_"  overflow="visible"/>
-													</clipPath>
-													
-														<line clip-path="url(#SVGID_3_)" fill="none" stroke="#FFFFFF" stroke-width="6.995" stroke-miterlimit="10" x1="862.097" y1="919.45" x2="342.803" y2="919.45"/>
+													<g>
+														<defs>
+															<polygon id="SVGID_2_" points="822.343,891.961 382.557,891.961 353.075,946.938 792.861,946.938 															"/>
+														</defs>
+														<clipPath id="SVGID_3_">
+															<use xlink:href="#SVGID_2_"  overflow="visible"/>
+														</clipPath>
+														
+															<line clip-path="url(#SVGID_3_)" fill="none" stroke="#FFFFFF" stroke-width="6.995" stroke-miterlimit="10" x1="862.097" y1="919.45" x2="342.803" y2="919.45"/>
+													</g>
 												</g>
 											</g>
 										</g>
@@ -61,7 +63,7 @@
 			<g>
 				<g>
 					
-						<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="783.4373" y1="3517.2085" x2="663.3314" y2="3210.0811" gradientTransform="matrix(1 0 0 -1 -246.9 4240.8115)">
+						<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="775.0973" y1="-2700.2485" x2="654.9914" y2="-2393.1211" gradientTransform="matrix(1 0 0 1 -238.56 3423.8516)">
 						<stop  offset="0" style="stop-color:#00C5DC"/>
 						<stop  offset="1" style="stop-color:#005484"/>
 					</linearGradient>
@@ -74,14 +76,17 @@
 										<g>
 											<g>
 												<g>
-													<defs>
-														<polygon id="SVGID_5_" points="369.759,1026.458 442.674,1026.458 580.953,733.646 508.039,733.646 														"/>
-													</defs>
-													<clipPath id="SVGID_6_">
-														<use xlink:href="#SVGID_5_"  overflow="visible"/>
-													</clipPath>
-													
-														<line clip-path="url(#SVGID_6_)" fill="none" stroke="#FFFFFF" stroke-width="6.995" stroke-miterlimit="10" x1="399.159" y1="1039.088" x2="549.368" y2="721.016"/>
+													<g>
+														<defs>
+															<polygon id="SVGID_5_" points="369.759,1026.458 442.674,1026.458 580.953,733.646 508.039,733.646 															
+																"/>
+														</defs>
+														<clipPath id="SVGID_6_">
+															<use xlink:href="#SVGID_5_"  overflow="visible"/>
+														</clipPath>
+														
+															<line clip-path="url(#SVGID_6_)" fill="none" stroke="#FFFFFF" stroke-width="6.995" stroke-miterlimit="10" x1="399.159" y1="1039.088" x2="549.368" y2="721.016"/>
+													</g>
 												</g>
 											</g>
 										</g>
@@ -94,7 +99,7 @@
 				<g>
 					<g>
 						
-							<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="966.2401" y1="3388.8474" x2="966.2401" y2="3150.2959" gradientTransform="matrix(1 0 0 -1 -246.9 4240.8115)">
+							<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="957.9" y1="-2571.8875" x2="957.9" y2="-2333.3359" gradientTransform="matrix(1 0 0 1 -238.56 3423.8516)">
 							<stop  offset="0" style="stop-color:#00C5DC"/>
 							<stop  offset="1" style="stop-color:#005484"/>
 						</linearGradient>
@@ -105,7 +110,7 @@
 					<g>
 						<g>
 							
-								<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="966.2401" y1="3544.9773" x2="966.2401" y2="3432.7571" gradientTransform="matrix(1 0 0 -1 -246.9 4240.8115)">
+								<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="957.9" y1="-2728.0173" x2="957.9001" y2="-2615.7971" gradientTransform="matrix(1 0 0 1 -238.56 3423.8516)">
 								<stop  offset="0" style="stop-color:#00C5DC"/>
 								<stop  offset="1" style="stop-color:#005484"/>
 							</linearGradient>
@@ -122,16 +127,18 @@
 <g id="Layer_2">
 	<g>
 		<g>
-			<defs>
-				<circle id="SVGID_9_" cx="587.709" cy="1057.799" r="751.072"/>
-			</defs>
-			<clipPath id="SVGID_10_">
-				<use xlink:href="#SVGID_9_"  overflow="visible"/>
-			</clipPath>
-			<g id="R_x5F_hand.psd_1_" clip-path="url(#SVGID_10_)">
-				
-					<image overflow="visible" enable-background="new    " width="1694" height="927" id="R_x5F_hand" xlink:href="208E7443.png"  transform="matrix(0.3848 -0.1424 0.1424 0.3848 -204.5551 1134.7952)">
-				</image>
+			<g>
+				<defs>
+					<circle id="SVGID_9_" cx="587.709" cy="1057.799" r="751.072"/>
+				</defs>
+				<clipPath id="SVGID_10_">
+					<use xlink:href="#SVGID_9_"  overflow="visible"/>
+				</clipPath>
+				<g id="R_x5F_hand.psd_1_" clip-path="url(#SVGID_10_)">
+					
+						<image overflow="visible" enable-background="new    " width="1694" height="927" id="R_x5F_hand" xlink:href="208E7443.png"  transform="matrix(0.3848 -0.1424 0.1424 0.3848 -204.5551 1134.7952)">
+					</image>
+				</g>
 			</g>
 		</g>
 	</g>
@@ -140,16 +147,18 @@
 <g id="Layer_2_copy">
 	<g>
 		<g>
-			<defs>
-				<circle id="SVGID_11_" cx="587.709" cy="1057.799" r="751.072"/>
-			</defs>
-			<clipPath id="SVGID_12_">
-				<use xlink:href="#SVGID_11_"  overflow="visible"/>
-			</clipPath>
-			<g id="Hand.psd_1_" clip-path="url(#SVGID_12_)">
-				
-					<image overflow="visible" enable-background="new    " width="1401" height="1352" id="Hand" xlink:href="208E7441.png"  transform="matrix(0.4601 0.0044 -0.0044 0.4601 689.9955 1018.8441)">
-				</image>
+			<g>
+				<defs>
+					<circle id="SVGID_11_" cx="587.709" cy="1057.799" r="751.072"/>
+				</defs>
+				<clipPath id="SVGID_12_">
+					<use xlink:href="#SVGID_11_"  overflow="visible"/>
+				</clipPath>
+				<g id="Hand.psd_1_" clip-path="url(#SVGID_12_)">
+					
+						<image overflow="visible" enable-background="new    " width="1401" height="1352" id="Hand" xlink:href="208E7441.png"  transform="matrix(0.4601 0.0044 -0.0044 0.4601 689.9955 1018.8441)">
+					</image>
+				</g>
 			</g>
 		</g>
 	</g>
